@@ -17,6 +17,13 @@ header {
   border-bottom: 1px solid #2f2f2f;
 }
 
+@media (max-width: 33.9em) {
+  header {
+    margin-top: -150px;
+    visibility: hidden;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat;
   font-weight: 400;
@@ -120,6 +127,13 @@ a:hover, a:focus {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-size: 5rem;
+}
+
+@media (max-width: 47.9em) {
+  #social i {
+      font-size: 2rem;
+  }
 }
 
 #contact {
